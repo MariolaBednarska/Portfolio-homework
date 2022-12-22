@@ -46,7 +46,7 @@ p {
 
 .primary-link {
   border-radius: 4px;
-  padding: 25px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -56,7 +56,7 @@ p {
 
 .secondary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 15px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
@@ -95,8 +95,8 @@ p {
   vertical-align: middle;
 }
 
-@media (max-witdh: 790px) {
+@media (max-witdh: 900px) {
   .primary-link {
-    padding: 13px 8px;
+    padding: 10px 5px;
   }
 }
