@@ -46,7 +46,7 @@ p {
 
 .primary-link {
   border-radius: 4px;
-  padding: 10px 8px;
+  padding: 25px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -93,4 +93,10 @@ p {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+@media (max-witdh: 790px) {
+  .primary-link {
+    padding: 13px 8px;
+  }
 }
